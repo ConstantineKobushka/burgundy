@@ -1,0 +1,190 @@
+@media (max-width: 1400px) {
+  .header__title {
+    margin: 0 auto auto 135px;
+    font-size: 152px;
+    line-height: 174px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .header__title {
+    margin: 0 auto auto 80px;
+    font-size: 152px;
+    line-height: 174px;
+  }
+}
+@media (max-width: 1100px) {
+  .header__title {
+    margin: 0 auto auto 0px;
+    font-size: 142px;
+    line-height: 164px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header__title {
+    font-size: 112px;
+    line-height: 134px;
+  }
+  .about__item {
+    display: block;
+  }
+  .about__box {
+    width: 100%;
+  }
+  .about__box-left {
+    padding-right: 0px;
+  }
+  .about__box-text {
+    margin-bottom: 30px;
+  }
+  .product__dot {
+    display: none;
+  }
+}
+
+@media (max-width: 934px) {
+  .footer__inner {
+    justify-content: space-around;
+  }
+  .footer__item {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 840px) {
+  .header__title {
+    font-size: 92px;
+    line-height: 92px;
+  }
+}
+
+@media (max-width: 725px) {
+  .header {
+    margin-bottom: 50px;
+  }
+  .about__item {
+    margin-bottom: 50px;
+  }
+  .vacation__inner {
+    margin-bottom: 70px;
+  }
+  .burgundy__description {
+    display: block;
+  }
+  .burgundy__description-title {
+    margin-bottom: 20px;
+  }
+  .burgundy__description-content {
+    width: 100%;
+  }
+  .vacation__statistics {
+    margin-bottom: 60px;
+  }
+  .about__description {
+    margin-bottom: 75px;
+  }
+  .product {
+    margin-bottom: 50px;
+  }
+  .photo {
+    margin-bottom: 60px;
+  }
+  .photo__slider {
+    margin-bottom: 50px;
+  }
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+  }
+  .slick-dots .slick-active button {
+    background-color: rgb(140, 0, 26, 1);
+  }
+  .slick-dots button {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(140, 0, 26, 0.5);
+    border: none;
+    font-size: 0;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  .footer {
+    padding: 50px 0 50px;
+  }
+  .footer__item-title {
+    pointer-events: auto;
+    position: relative;
+    padding-left: 24px;
+  }
+  .footer__item-title::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/arrow-down.svg);
+    width: 12px;
+    height: 8px;
+    left: 0;
+    top: 7px;
+    transition: all 1s;
+  }
+  .footer__list {
+    display: none;
+  }
+  .footer__item-title.footer__item-title--active::after {
+    transform: rotate(540deg);
+  }
+}
+
+@media (max-width: 670px) {
+  .menu__list-link {
+    font-weight: 700;
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header__top-inner {
+    border: none;
+  }
+  .header__title {
+    font-size: 92px;
+    line-height: 92px;
+  }
+  .header__text {
+    display: none;
+  }
+  .about__images img {
+    width: 100%;
+  }
+  .footer__item {
+    margin-bottom: 30px;
+    width: 226px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header__title {
+    width: 100%;
+    font-size: 92px;
+    line-height: 92px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu {
+    padding-top: 0px;
+  }
+  .burgundy__description-title,
+  .product__title {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .header__title {
+    font-size: 82px;
+    line-height: 82px;
+  }
+}
